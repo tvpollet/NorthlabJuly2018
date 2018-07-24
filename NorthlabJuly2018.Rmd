@@ -332,7 +332,7 @@ class: inverse
 ## Future... .
 
 ```{r, out.width = "500px", echo=FALSE, fig.align='center'}
-knitr::include_graphics("http://s2.quickmeme.com/img/a7/a7cae161ea16b893de40b46acadedad9b57373e6ebacfe9cd4bb57a32686517a.jpg")
+knitr::include_graphics("future.jpg")
 ```
 
 ---
@@ -510,7 +510,7 @@ knitr::include_graphics("emojis.png")
 ---
 ## What Next?
 
-* Summer workshop? Half a day?
+* Workshop with PACT lab (initially planned for summer - but likely fall or spring)? Half a day? Interest in R and/or data visualisation? 
 
 ```{r, out.width = "650px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://3.bp.blogspot.com/-MWFA_Xq8H44/WorcMhF0dfI/AAAAAAAAed0/Xac7x-m1W7ICXjL3ORIz8bIXI_6Zp25zQCLcBGAs/s1600/tumblr_nevaltTtKt1tlghueo2_500.gif")
