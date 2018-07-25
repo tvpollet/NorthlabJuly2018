@@ -13,7 +13,7 @@ class: center, middle, inverse, title-slide
 
 # My adventures into Cyberpsychology…
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk">thomas.pollet@northumbria.ac.uk</a>)
-### 2018-07-24 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2018-07-25 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -162,7 +162,7 @@ class: inverse
 ---
 ## Social media and egocentric social networks.
 
-* We had Sam Roberts here a while ago.
+* We had [Sam Roberts](https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-science/natural-sciences-and-psychology/samuel-roberts) giving a talk at psychology a while ago.
 
 --
 
@@ -220,7 +220,7 @@ class: inverse
 ---
 ## Other work (MRes projects Amsterdam).
 
-* Can people tell how 'groupy' their facebook network is. (R &amp; R with _Social Science Research_).
+* Can people tell how 'groupy' their facebook network is. (Just published in [_Social Science Research_](https://www.sciencedirect.com/science/article/pii/S0049089X17306919)).
 
 --
 
@@ -314,7 +314,7 @@ class: inverse
 
 --
 
-* Open to add more, among others set up collaborations with PACT. Depending on where my expertise fits in ... .
+* Open to add more, among others set up collaborations with PACT and NorthLab. Depending on where my expertise fits in ... .
 
 --
 
@@ -328,9 +328,6 @@ class: inverse
 * I teach MRes. statistics.
 
 * Everything covered [here](https://tvpollet.github.io/PY0782/).
-
-* Any particular things we are missing?
-
 
 &lt;img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-01/enhanced/webdr07/3/14/anigif_enhanced-buzz-10321-1388777632-6.gif?downsize=715:*&amp;output-format=auto&amp;output-quality=auto" width="400px" style="display: block; margin: auto;" /&gt;
 
@@ -499,12 +496,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   d.head.appendChild(s);
 })();</script>
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
   }
-});
+})();
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

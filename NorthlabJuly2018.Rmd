@@ -178,7 +178,7 @@ knitr::include_graphics("http://i0.kym-cdn.com/photos/images/original/000/671/96
 ---
 ## Social media and egocentric social networks.
 
-* We had Sam Roberts here a while ago.
+* We had [Sam Roberts](https://www.ljmu.ac.uk/about-us/staff-profiles/faculty-of-science/natural-sciences-and-psychology/samuel-roberts) giving a talk at psychology a while ago.
 
 --
 
@@ -240,7 +240,7 @@ knitr::include_graphics("Birdsfeather3.png")
 ---
 ## Other work (MRes projects Amsterdam).
 
-* Can people tell how 'groupy' their facebook network is. (R & R with _Social Science Research_).
+* Can people tell how 'groupy' their facebook network is. (Just published in [_Social Science Research_](https://www.sciencedirect.com/science/article/pii/S0049089X17306919)).
 
 --
 
@@ -342,7 +342,7 @@ knitr::include_graphics("future.jpg")
 
 --
 
-* Open to add more, among others set up collaborations with PACT. Depending on where my expertise fits in ... .
+* Open to add more, among others set up collaborations with PACT and NorthLab. Depending on where my expertise fits in ... .
 
 --
 
@@ -358,9 +358,6 @@ knitr::include_graphics("http://i0.kym-cdn.com/photos/images/original/001/210/46
 * I teach MRes. statistics.
 
 * Everything covered [here](https://tvpollet.github.io/PY0782/).
-
-* Any particular things we are missing?
-
 
 ```{r, out.width = "400px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://img.buzzfeed.com/buzzfeed-static/static/2014-01/enhanced/webdr07/3/14/anigif_enhanced-buzz-10321-1388777632-6.gif?downsize=715:*&output-format=auto&output-quality=auto")
